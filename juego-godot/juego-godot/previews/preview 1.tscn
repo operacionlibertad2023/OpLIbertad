@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvktfdv6ibwbq"]
+
+[ext_resource type="PackedScene" uid="uid://2yln7o7mbuur" path="res://menu/videosInicio/videosInicio.tscn" id="1_ncydp"]
+[ext_resource type="PackedScene" uid="uid://yuamgun7hrrw" path="res://menu/menu.tscn" id="2_b7hgn"]
+
+[node name="preview 1" type="Node"]
+
+[node name="videosInicio" parent="." instance=ExtResource("1_ncydp")]
+
+[node name="Control" parent="." instance=ExtResource("2_b7hgn")]
